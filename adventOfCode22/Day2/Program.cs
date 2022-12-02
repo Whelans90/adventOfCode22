@@ -158,7 +158,7 @@ namespace Day2
             int challenge1Score = 0;
             int challenge2Score = 0;
 
-            foreach (string line in System.IO.File.ReadLines(@"C:\Users\sean.whelan\Documents\adventOfCode22\adventOfCode22\Day2\strat.txt"))
+            foreach (string line in System.IO.File.ReadLines(AppContext.BaseDirectory + "strat.txt"))
             {
                 var opponentChoice = line[0];
                 var myChoice = line[2];
