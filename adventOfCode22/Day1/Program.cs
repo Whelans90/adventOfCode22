@@ -3,8 +3,9 @@ int currentElfCalories = 0;
 List<int> calories = new List<int>();
 int total = 0;
 
-foreach (string line in System.IO.File.ReadLines(@"C:\Users\sean.whelan\Documents\AdventOfCode\elfCalories.txt"))
+foreach (string line in System.IO.File.ReadLines(AppContext.BaseDirectory+"elfCalories.txt"))
 {
+    
     if (line == "")
     {
         //mostCalories = Math.Max(mostCalories, currentElfCalories);
