@@ -3,7 +3,7 @@ int currentElfCalories = 0;
 List<int> calories = new List<int>();
 int total = 0;
 
-foreach (string line in System.IO.File.ReadLines(@"C:\Users\sean.whelan\Documents\AdventOfCode\elfCalories.txt"))
+foreach (string line in System.IO.File.ReadLines(@"C:\Users\sean.whelan\Documents\adventOfCode22\adventOfCode22\Day1\elfCalories.txt"))
 {
     if (line == "")
     {
